@@ -8,9 +8,9 @@ In this project, we collected customer reviews from Skytrax for analysis of sent
 
 ## Repository Structure
 
-- **`python_nlp_script.py`**: Python script for preprocessing text data, applying NLP techniques, and generating sentiment analysis from customer reviews.
+- **`python_nlp_script.ipynb`**: Python script for preprocessing text data, applying NLP techniques, and generating sentiment analysis from customer reviews.
   
-- **`web_scrape_automation.py`**: Python script deployed on IBM Cloud for daily web scraping of new reviews from Skytrax.
+- **`web_scrape_automation.ipynb`**: Python script deployed on IBM Cloud for daily web scraping of new reviews from Skytrax.
 
 - **`PowerBI_report.pptx`**: PowerPoint presentation containing visualizations and insights derived from the analyzed data using Power BI.
 
@@ -19,13 +19,13 @@ In this project, we collected customer reviews from Skytrax for analysis of sent
 ### Python NLP Script
 
 1. Ensure you have the necessary libraries installed (`pandas`, `nltk`, `vaderSentiment`, etc.).
-2. Run `python_nlp_script.py` to preprocess and analyze the customer review data.
+2. Run `python_nlp_script.ipynb` to preprocess and analyze the customer review data.
 3. The script will generate sentiment scores and insights based on the input data.
 
 ### Web Scraping Automation (IBM Cloud)
 
 1. Set up an IBM Cloud account and create a Python runtime environment.
-2. Deploy `web_scrape_automation.py` as a scheduled task to run daily for retrieving new reviews from Skytrax.
+2. Deploy `web_scrape_automation.ipynb` as a scheduled task to run daily for retrieving new reviews from Skytrax.
 3. Configure the script to store the scraped data in your preferred database or storage solution.
 
 ## Power BI Report
